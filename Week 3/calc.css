@@ -1,0 +1,40 @@
+.calc-contain {
+  position: relative;
+  border: 2px solid black;
+  width: 400px;
+  border-radius: 12px;
+  padding: 20px 20px 100px 20px;
+  margin: 0px auto;
+}
+input[type="text"] {
+  position: relative;
+  display: block;
+  width: 90%;
+  margin: 5px auto;
+  font-size: 20px;
+  padding: 10px;
+  box-shadow: 4px 0px 12px black inset;
+}
+input[type="button"] {
+  background: lightgray;
+  width: 20%;
+  font-size: 20px;
+  font-weight: 900;
+  border-radius: 7px;
+  margin-left: 13px;
+  margin-top: 10px;
+}
+input[type="button"]:hover {
+  background-color: lightskyblue;
+  color: white;
+}
+input[type="button"]:active {
+  background-color: lightgreen;
+  box-shadow: 0 5px burlywood;
+  transform: translateY(2px);
+}
+#agh {
+  position: relative;
+  float: right;
+  margin-top: 15px;
+}

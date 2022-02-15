@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embed tag</title>
+</head>
+<body>
+    <div id="calender" style="float:left;">
+        <button onclick="calender()">Click here for calender</button>
+    </div>
+
+    <div id="video" style="float: right;">
+        <button onclick="video()">Click here for Video</button>
+    </div>
+
+
+    <script>
+        function video(){
+            var vd = document.getElementById("video");
+
+            vd.innerHTML = "<iframe width='420' height='345' src='https://www.youtube.com/embed/tgbNymZ7vqY'></iframe >"
+        }
+
+        function calender() {
+                var cal = document.getElementById("calender");
+
+                cal.innerHTML = "<embed src='calender.html' width='500px ' height='500px'>";
+            }
+    </script>
+</body>
+</html>
